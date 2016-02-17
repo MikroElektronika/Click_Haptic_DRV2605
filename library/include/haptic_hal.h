@@ -27,6 +27,7 @@
  *   Ext. Modules:    Color2 Click
  *   SW:              ARM 4.5.2
  *
+ *
  */
 #ifndef HAPTIC_HAL_H_
 #define HAPTIC_HAL_H_
