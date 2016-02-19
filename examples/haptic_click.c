@@ -2,7 +2,8 @@
 
 sbit HAPTIC_EN  at GPIOD_ODR.B13;
 
-void HW_Init(){
+void hw_init()
+{
   //Write_DRV2605(DRV2605_REG_MODE, 0x80);                   // Reset all registers
 
   // Initialization for Audio input
@@ -19,13 +20,13 @@ void HW_Init(){
 }
 
 // Main function
-
-void main() {
+void main() 
+{
   GPIO_Digital_Output(&GPIOD_ODR, _GPIO_PINMASK_13);         // Set EN pin as output
   I2C1_Init_Advanced(400000, &_GPIO_MODULE_I2C1_PB67);       // I2C1 initialization
-  delay_ms(200);                                             // Delay (200 ms)
+  Delay_ms(200);                                             // Delay (200 ms)
 
-  HW_Init();                                                 // DRV2605 Intialization
+  hw_init();                                                 // DRV2605 Intialization
 
   while(1)
   {}
