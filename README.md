@@ -1,15 +1,14 @@
-> ![MikroE](http://www.mikroe.com/img/designs/beta/logo_small.png)
-> #[Haptic click](http://www.mikroe.com/click/haptic/)#
-> ##By [MikroElektronika](http://www.mikroe.com)
+![mikroe_logo] 
+# by [MikroElektronika]
+![haptic_image] 
+# More information about [Haptic click] is found here.
 ---
-
 ## Installation
-Package manager required to install the package to your IDE.  
+>If installing from package, [Package manager] required to install to your IDE.  
 
-## Tutorial
-[Haptic click HowTo](http://learn.mikroe.com/haptic-click-feel-the-code-on-your-skin/)![Haptic click](http://cdn.mikroe.com/img/click/haptic/haptic_click.png)
+## Looking for a [tutorial?][Haptic Tutorial]
 
-###Example
+### Example
 ```
 #include "haptic_hw.h"
 
@@ -44,3 +43,12 @@ void main()
   while(1);
 }
 ```
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+
+   [MikroElektronika]: <http://www.mikroe.com/>
+   [mikroe_logo]: <http://www.mikroe.com/img/designs/beta/logo_small.png>
+   [Haptic click]: <http://www.mikroe.com/click/haptic/>
+   [haptic_image]: <http://cdn.mikroe.com/img/click/haptic/haptic_click.png>
+   [Haptic Tutorial]: <http://learn.mikroe.com/haptic-click-feel-the-code-on-your-skin/>
+   [Package Manager]: <http://www.mikroe.com/package-manager/>
