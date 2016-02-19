@@ -7,7 +7,7 @@
 Package manager required to install the package to your IDE.  
 
 ## Tutorial
-[Haptic click HowTo](http://learn.mikroe.com/haptic-click-feel-the-code-on-your-skin/)
+[Haptic click HowTo](http://learn.mikroe.com/haptic-click-feel-the-code-on-your-skin/)![Haptic click](http://cdn.mikroe.com/img/click/haptic/haptic_click.png)
 
 ###Example
 ```
